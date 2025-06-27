@@ -23,7 +23,7 @@ const Projects = () => {
         description='A modern portfolio website built with Next.js, showcasing my projects and skills in a sleek design.'
         />        
         <ProjectCard
-        src='/spaceWebsite.png'    
+        src='/SpaceWebsite.png'    
         title='Space Themed Website'
         description='A modern portfolio website built with Next.js, showcasing my projects and skills in a sleek design.'
         />  
