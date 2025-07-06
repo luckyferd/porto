@@ -70,7 +70,7 @@ const Footer = () => {
 
             <div
             className='mb-[20px] text-[15px] text-center'>
-                &copy; 2025 MifWebChain.Inc All rights reserved. <br />
+                &copy; 2025 All rights reserved. <br />
             </div>
         </div>
     </div>
