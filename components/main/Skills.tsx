@@ -1,4 +1,4 @@
-import { Backend_skill, Frontend_skill, Full_stack, Game_dev, Other_skill, Skill_data } from '@/constants'
+import { Backend_skill, Frontend_skill, Full_stack, Game_dev, Other_skill } from '@/constants'
 import { section } from 'framer-motion/client'
 import { transform } from 'next/dist/build/swc'
 import React from 'react'
@@ -13,28 +13,8 @@ function Skills() {
     style={{transform:"scale(0.9)"}}
     >
         <SkillText />
-        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Game_dev.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
-        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Skill_data.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
+        
+       
         <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center'>
         {Frontend_skill.map((image, index) => (
             <SkillDataProvider 
@@ -82,6 +62,17 @@ function Skills() {
           />
         ))}
       </div>
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        {Game_dev.map((image, index) => (
+          <SkillDataProvider
+            key={index}
+            src={image.Image}
+            width={image.width}
+            height={image.height}
+            index={index}
+          />
+        ))}
+      </div>
         <div className='w-full h-full absolute'>
             <div className='w-full h-full z-[10] opacity-30 absolute flex items-center justify-center bg cover'>
         <video
@@ -91,7 +82,7 @@ function Skills() {
         loop
         muted
         autoPlay
-        src='/cards-video.webm'
+        src='/encryption.webm'
         />
             </div>
         </div>

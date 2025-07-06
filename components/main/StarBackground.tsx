@@ -26,7 +26,7 @@ const StarBackground = (props:any) => {
         {...props}>
             <PointMaterial
             transparent
-            color="$fff"
+            color="#ffd700"
             size={0.002}
             sizeAttenuation={true}
             depthWrite={false}
@@ -47,5 +47,5 @@ return(
     </div>
 )
 }
-
+/* fixed top-0 left-0 w-full h-full -z-10 pointer-events-none */
 export default StarCanvas;

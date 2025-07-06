@@ -38,7 +38,7 @@ const ContactForm = () => {
         </div>
         <button
           type="submit"
-          className="w-full p-3 bg-purple-600 hover:bg-purple-700 rounded-lg font-semibold transition duration-200"
+          className="w-full p-3 bg-yellow-600 hover:bg-red-700 rounded-lg font-semibold transition duration-200"
         >
           Submit
         </button>
