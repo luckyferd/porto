@@ -67,20 +67,16 @@
   
   export const Socials = [
     {
-      name: "Instagram",
-      src: "/instagram.svg",
-      link:"https://www.instagram.com/lucferd_/",
+      name: "linkedIn",
+      src: "/InBug-White.png",
+      link:"https://www.linkedin.com/in/lucky-ferdiansyah-a23a96303/",
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
-      link:"https://www.facebook.com/share/19BkFcrbNp/",
+      name: "GitHub",
+      src: "/github-mark-white.png",
+      link:"https://github.com/luckyferd",
     },
-    {
-      name: "discord",
-      src: "/discord.svg",
-      link:"https://discordapp.com/users/sky2786",
-    },
+   
   ];
   
   

@@ -22,26 +22,7 @@ const Footer = () => {
     Social Media
   </div>
 
-  <a
-    href="https://www.instagram.com/lucferd_/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex flex-row items-center my-[15px] cursor-pointer hover:underline"
-  >
-    <FaInstagram />
-    <span className="text-[15px] ml-[6px]">Instagram</span>
-  </a>
-
-  <a
-    href="https://www.facebook.com/share/19BkFcrbNp/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex flex-row items-center my-[15px] cursor-pointer hover:underline"
-  >
-    <FaFacebook />
-    <span className="text-[15px] ml-[6px]">Facebook</span>
-  </a>
-
+ 
   <a
     href="https://www.linkedin.com/in/lucky-ferdiansyah-a23a96303"
     target="_blank"
@@ -53,14 +34,14 @@ const Footer = () => {
   </a>
 
   <a
-    href="https://discordapp.com/users/sky2786"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex flex-row items-center my-[15px] cursor-pointer hover:underline"
-  >
-    <RxDiscordLogo />
-    <span className="text-[15px] ml-[6px]">Discord</span>
-  </a>
+  href="https://github.com/luckyferd"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex flex-row items-center my-[15px] cursor-pointer hover:underline"
+>
+  <RxGithubLogo />
+  <span className="text-[15px] ml-[6px]">GitHub</span>
+</a>
 </div>
 
             </div >
