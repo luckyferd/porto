@@ -35,7 +35,7 @@ const Projects = () => {
        />  
         <ProjectCard
         src='/webneko.png'    
-        title='Neko Themed Website'
+        title='Neko Themed Web'
         description='sebuah portofolio sederhana yang saya buat dengan Next.js, menampilkan berbagai proyek dan keterampilan saya dalam desain yang ramping.'
         link='https://github.com/luckyferd/porto'
         />  
